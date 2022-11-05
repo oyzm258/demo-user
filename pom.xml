@@ -26,7 +26,7 @@
 					<releaseGoals>
 						<releaseGoal>install</releaseGoal>
 					</releaseGoals>
-					<privateKey>C:/Users/jimmy/.ssh/id_rsa</privateKey>
+					<knownHosts>C:/Users/jimmy/.ssh/known_hosts</knownHosts>
 				</configuration>
 			</plugin>
 		</plugins>
