@@ -15,4 +15,19 @@
 		<maven.compiler.source>17</maven.compiler.source>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>com.github.danielflower.mavenplugins</groupId>
+				<artifactId>multi-module-maven-release-plugin</artifactId>
+				<version>3.6.1</version>
+				<configuration>
+					<releaseGoals>
+						<releaseGoal>install</releaseGoal>
+					</releaseGoals>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
